@@ -71,7 +71,7 @@ async function run() {
 run().catch(console.dir);
 app.get('/', (req, res) => {
     console.log('running get');
-    res.send('helloo there')
+    res.send('hello there')
 });
 app.listen(port, () => {
     console.log('running port', port)
